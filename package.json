@@ -1,6 +1,6 @@
 {
   "name": "express-www-redirect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A pair or ExpressJS middlewares for redirecting either WWW hosts to NO-WWW hosts, or redirecting NO-WWW hosts to WWW hosts.",
   "main": "index.js",
   "author": {

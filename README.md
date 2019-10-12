@@ -26,7 +26,7 @@ const { redirectNoWWWToWWW } = require('express-www-redirect')
 Apply the middleware before your routes:
 
 ```js
-app.use(redirectWWWToNoWWW(whitelistHosts, redirectStatusCode))
+app.use(redirectNoWWWToWWW(whitelistHosts, redirectStatusCode))
 ```
 
 ## Redirecting WWW to No-WWW
