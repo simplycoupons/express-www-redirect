@@ -1,0 +1,38 @@
+{
+  "name": "express-www-redirect",
+  "version": "1.0.0",
+  "description": "A pair or ExpressJS middlewares for redirecting either WWW hosts to NO-WWW hosts, or redirecting NO-WWW hosts to WWW hosts.",
+  "main": "index.js",
+  "author": {
+    "name": "Simplycoupons",
+    "email": "simplycoupons.co@gmail.com",
+    "url": "https://www.simplycoupons.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:simplycoupons/express-www-redirect.git"
+  },
+  "readmeFilename": "README.md",
+  "engines": {
+    "node": ">=4.8.4",
+    "npm": ">=2.10.0",
+    "yarn": ">=1.0.1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "expressjs",
+    "server",
+    "webserver",
+    "middleware",
+    "redirect",
+    "SEO",
+    "javascript",
+    "www",
+    "no-www",
+    "host",
+    "hostname"
+  ],
+  "license": "MIT",
+  "homepage": "https://www.simplycoupons.co"
+}
