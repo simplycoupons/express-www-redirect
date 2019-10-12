@@ -45,7 +45,7 @@ app.use(redirectWWWToNoWWW(whitelistHosts, redirectStatusCode))
 
 ## Configuration
 
-- *whitelistHosts*: An array of whitelisted hosts that will not be redirected. Include port numbers for `localhost`. Default: `[]`.
+- *whitelistHosts*: An array of strings of whitelisted hosts that will not be redirected. Include port numbers for `localhost`, example: `['localhost:3000']`. Default: `[]`.
 - *redirect*: HTTP status code to apply to the redirect. Default: `301`.
 
 ## Example Express server - No-WWW to WWW
